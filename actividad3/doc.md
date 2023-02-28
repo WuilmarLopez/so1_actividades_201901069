@@ -1,1 +1,2 @@
 
+El error ocurria cuando cuando se creaba la imagen, ya que en modo desarrolador la aplicacion sirve los archivos estaticos de una mejor manera pero en cuanto se crea la imagen, se pierden todas las rutas y nginx no sabe que rutas debe usar para servir nuestros archivos estaticos. Por tanto se realizo un nginx.conf donde se definieron las rutas de los archivos que debera servir nuestro frontend usando el try_files para saber si el archivo estatico solicitado se encuentra en la ruta definida.
