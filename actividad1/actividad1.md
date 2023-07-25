@@ -1,8 +1,10 @@
 Tipos de Kernel
 
-MicroKernel: Los micokernel son diseñados de un tamaño pequeño para que al momento de ocurrir un fallo no afecte el sistema operativo completo, sino que un pequeño segmento. A diferencia del monolítico este tipo de kernel es modular. Al momento ninguno de los sistemas operativos emplea este tipo de kernel.
-Kernel Monolítico: Es un kernel grande que se ha diseñado para administrar todas las tareas y procesos. Es el único responsable de gestionar la memoria, comunicación de procesos y funciones de drivers y hardware. Los sistemas operativos como Linux, OS X y Windows usan este tipo de kernel debido a que no es modular y alcanza un mayor rendimiento que los micro kernel.
-Kernel hibrido: Este kernel es la combinación del kernel monolítico y el micokernel, lo que significa que el kernel Monolítico se hace más compacto y modular.
+- MicroKernel: Los micokernel son diseñados de un tamaño pequeño para que al momento de ocurrir un fallo no afecte el sistema operativo completo, sino que un pequeño segmento. A diferencia del monolítico este tipo de kernel es modular. Al momento ninguno de los sistemas operativos emplea este tipo de kernel.
+
+- Kernel Monolítico: Es un kernel grande que se ha diseñado para administrar todas las tareas y procesos. Es el único responsable de gestionar la memoria, comunicación de procesos y funciones de drivers y hardware. Los sistemas operativos como Linux, OS X y Windows usan este tipo de kernel debido a que no es modular y alcanza un mayor rendimiento que los micro kernel.
+
+- Kernel hibrido: Este kernel es la combinación del kernel monolítico y el micokernel, lo que significa que el kernel Monolítico se hace más compacto y modular.
 
 
 User Mode vs Kernel Mode
