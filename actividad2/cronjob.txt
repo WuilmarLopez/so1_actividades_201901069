@@ -1,0 +1,3 @@
+crontab -e
+
+*/5 * * * * /home/tu_usuario/Escritorio/Actividad2_201901069.sh
