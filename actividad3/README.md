@@ -213,9 +213,9 @@ total 12
 -rw-r----- 1 usuario1 usuario1   11 Aug  9 18:18 archivo1.txt
 drwxr-x--- 2 usuario1 usuario1 4096 Aug  9 18:09 directorio1
 -rw-rw-r-- 1 usuario1 usuario1   11 Aug  9 18:06 hola_mundo.txt
-```
 usuario1@GRL353:~$ cd directorio1
 usuario1@GRL353:~/directorio1$ ls -l
 total 4
 -rwxrw-r-- 1 usuario1 grupo1 24 Aug  9 18:09 archivo2.txt
 usuario1@GRL353:~/directorio1$
+```
