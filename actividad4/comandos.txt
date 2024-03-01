@@ -1,0 +1,8 @@
+#Dar permisos de ejecucion 
+chmod +x participant1.sh participant2.sh chat_principal.sh
+
+#Ejecutando scripts en terminales diferentes
+./script.sh
+./chat_participante1.sh
+./chat_participante2.sh
+
