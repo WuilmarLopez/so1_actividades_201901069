@@ -2,7 +2,7 @@
 
 Chat Basico con Named Pipes y bash 
 
-##Ejecución
+Ejecución
 ---------------
 * Dar Permisos
   * chmod +x participant1.sh participant2.sh chat_principal.sh
@@ -12,7 +12,7 @@ Chat Basico con Named Pipes y bash
   * ./chat_participante2.sh
 
 
-##Flujo básico de funcionamiento:
+Flujo básico de funcionamiento:
 ---------------------------------
 
 1. **Creación de Named Pipes:** El script principal (chat_principal.sh) crea dos Named Pipes, uno para cada dirección de comunicación (/tmp/pipe1 y /tmp/pipe2).
